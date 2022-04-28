@@ -14,10 +14,10 @@ const Footer = () => {
                     <h3>Useful Links</h3>
                     <ul>
                         <li><a href="#top">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#top">About</a></li>
+                        <li><a href="#top">Skills</a></li>
+                        <li><a href="#top">Portfolio</a></li>
+                        <li><a href="#top">Contact</a></li>
                     </ul>
                 </NavigationLinks>
 
@@ -26,10 +26,10 @@ const Footer = () => {
                     <ul>
                         <li><a href="https://wa.me/919730809750" target="_blank" rel="noreferrer">Whatsapp</a></li>
                         <li><a href="https://github.com/vijayghore" target="_blank" rel="noreferrer">Github</a></li>
-                        <li><a href="#">Linkdin</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
+                        <li><a href='#top'>Linkdin</a></li>
+                        <li><a href='#top'>Instagram</a></li>
+                        <li><a href='#top'>Facebook</a></li>
+                        <li><a href='#top'>Twitter</a></li>
                     </ul>
                 </SocialLinks>
             </Links>
