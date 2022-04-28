@@ -4,8 +4,6 @@
 
 This is my protfolio website through which you can hire me and see my work as well. This will also answers the questions like -
 
-(Project is in Development Phase so some functionality might not work properly)
-
 - Who I am?
 - Technology I work on?
 - My Projects

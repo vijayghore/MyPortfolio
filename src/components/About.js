@@ -21,31 +21,32 @@ const About = () => {
 export default About
 
 const Wrapper = styled.div`
-  margin: 150px 50px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+    margin: 150px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 
-  @media (max-width: 500px) {
-      flex-direction: column;
-      margin: 150px 50px;
-  }
-`
+    @media (max-width: 500px) {
+        flex-direction: column;
+        margin: 150px 20px;
+      }
+      `
 const Img = styled.img`
     src: url(${props => props.src});
     max-width: 400px;
     display: flex;
-`;
+    `;
 
 const AboutMe = styled.div`
   display: flex;
   flex-direction: column;
   margin: 20px 100px;
-
+  
   @media (max-width: 500px) {
-      margin: 30px 0px;
+    align-items: center;
+    margin: 0px 0px;
   }
 `;
 const Heading = styled.h1`

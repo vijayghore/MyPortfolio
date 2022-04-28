@@ -64,4 +64,5 @@ const WidgetsHolder = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 10px;
 `;

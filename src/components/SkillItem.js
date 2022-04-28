@@ -18,4 +18,9 @@ const Item = styled.span`
   padding: 10px;
   border-radius: 20px;
   color: ${(props) => (props.color ? props.color: "#FFB742")};
+
+  @media (max-width: 500px) {
+      font-size: 10vw;
+      padding: 20px;
+  }
 `;

@@ -24,7 +24,7 @@ const Footer = () => {
                 <SocialLinks>
                     <h3>Social Media</h3>
                     <ul>
-                        <li><a href="https://wa.me/919730809750" target="_blank" rel="noreferrer">Whatsapp</a></li>
+                        <li><a href="https://wa.me/919730809750?text=Hey Vijay, We want you to hire for our Company" target="_blank" rel="noreferrer">Whatsapp</a></li>
                         <li><a href="https://github.com/vijayghore" target="_blank" rel="noreferrer">Github</a></li>
                         <li><a href='#top'>Linkdin</a></li>
                         <li><a href='#top'>Instagram</a></li>
@@ -53,6 +53,7 @@ const Wrapper = styled.div`
 
     @media (max-width: 500px) {
         flex-direction: column;
+        margin-top: 0;
     }
 `
 
