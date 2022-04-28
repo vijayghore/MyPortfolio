@@ -24,8 +24,8 @@ const Footer = () => {
                 <SocialLinks>
                     <h3>Social Media</h3>
                     <ul>
-                        <li><a href="https://wa.me/919730809750" target="_blank">Whatsapp</a></li>
-                        <li><a href="https://github.com/vijayghore" target="_blank">Github</a></li>
+                        <li><a href="https://wa.me/919730809750" target="_blank" rel="noreferrer">Whatsapp</a></li>
+                        <li><a href="https://github.com/vijayghore" target="_blank" rel="noreferrer">Github</a></li>
                         <li><a href="#">Linkdin</a></li>
                         <li><a href="#">Instagram</a></li>
                         <li><a href="#">Facebook</a></li>
