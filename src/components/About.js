@@ -4,7 +4,7 @@ import aboutme from '../images/aboutme.png'
 
 const About = () => {
   return (
-    <Wrapper>
+      <><span id='About'></span><Wrapper>
       <Img src={aboutme} />
       <AboutMe>
         <Heading>About Me</Heading>
@@ -12,9 +12,9 @@ const About = () => {
           Hi! I’m Vijay Ghore, and I’m a Web Developer who has passion for building clean web applications with intuitive functionality. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
         </Description>
         <br />
-        <HireMe>Hire Me</HireMe>
+        <HireMe><a href="https://wa.me/919730809750?text=Hey Vijay, We want you to hire for our company" target="_blank" rel="noreferrer">Hire Me</a></HireMe>
       </AboutMe>
-    </Wrapper>
+    </Wrapper></>
   )
 }
 
@@ -73,7 +73,21 @@ const HireMe = styled.button`
   font-size: 18px;
   line-height: 30px;
   
-  &:hover{
+  &:hover {
       cursor: pointer;
+  }
+
+
+  a:link {
+      color: #212529;
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: #212529;
+  }
+
+  a:active {
+      color: #212529;
   }
 `;

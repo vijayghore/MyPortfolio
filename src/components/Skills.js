@@ -4,12 +4,12 @@ import SkillItem from './SkillItem'
 
 const Skills = () => {
 	return (
-		<Wrapper>
+		<><span id='Skills'></span><Wrapper>
 			<SkillsIntro>
 				<h1>What My Programming Skills Included?</h1>
 				<p>I develop simple, beautiful, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.</p>
 				<br />
-				<HireMe>Hire Me</HireMe>
+				<HireMe><a href="https://wa.me/919730809750?text=Hey Vijay, We want you to hire for our company" target="_blank" rel="noreferrer">Hire Me</a></HireMe>
 			</SkillsIntro>
 			<SkillTech>
 				<SkillStack>
@@ -27,7 +27,7 @@ const Skills = () => {
 					<SkillItem icon="fa-brands fa-python" color="#000" />
 				</SkillStack>
 			</SkillTech>
-		</Wrapper>
+		</Wrapper></>
 	)
 }
 
@@ -35,7 +35,7 @@ export default Skills
 
 
 const Wrapper = styled.div`
-  	margin: 150px 100px;
+	margin: 200px 100px 250px 100px;
   	display: flex;
   	flex-direction: row;
   	justify-content: space-between;
@@ -88,6 +88,19 @@ const HireMe = styled.button`
   	&:hover{
       	cursor: pointer;
   	}
+
+	a:link{
+		color: #212529;
+		text-decoration: none;
+  	}
+
+  	a:visited {
+     	 color: #212529;
+  	}
+
+  	a:active {
+     	 color: #212529;
+ 	}
 `
 const SkillTech = styled.div`
 	display: flex;

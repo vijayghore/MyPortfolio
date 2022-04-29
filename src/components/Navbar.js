@@ -14,8 +14,7 @@ const Navbar = () => {
                 <ListItem><Link href="home.js"> Contact</Link></ListItem>
             </List>
 
-
-            <HireMe> Hire Me </HireMe>
+            <HireMe><a href="https://wa.me/919730809750?text=Hey Vijay, We want you to hire for our company" target="_blank" rel="noreferrer"> Hire Me </a></HireMe>
         </Wrapper>
     )
 }
@@ -96,5 +95,18 @@ const HireMe = styled.button`
     
     &:hover{
         cursor: pointer;
+    }
+
+    a:link{
+        color: #212529;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #212529;
+    }
+
+    a:active {
+        color: #212529;
     }
 `;

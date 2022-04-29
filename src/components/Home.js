@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Wrapper>
-        <Text1>Hi, I am <Name>Vijay Ghore</Name> 👋🏻</Text1>
+        <Text1 id='Home'>Hi, I am <Name>Vijay Ghore</Name> 👋🏻</Text1>
         <Text2>A Full Stack Web Developer</Text2>
         <Text3>I love to code things beautifully and do what I love to do.</Text3>
 

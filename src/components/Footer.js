@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Footer = () => {
+
     return (
         <Wrapper>
             <PersonalInfo>
@@ -13,11 +14,11 @@ const Footer = () => {
                 <NavigationLinks>
                     <h3>Useful Links</h3>
                     <ul>
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#top">About</a></li>
-                        <li><a href="#top">Skills</a></li>
-                        <li><a href="#top">Portfolio</a></li>
-                        <li><a href="#top">Contact</a></li>
+                        <li><a href="#Home"> Home</a></li>
+                        <li><a href="#About"> About</a></li>
+                        <li><a href="#Skills"> Skills</a></li>
+                        <li><a href="#Portfolio"> Portfolio</a></li>
+                        <li><a href="#Contact"> Contact</a></li>
                     </ul>
                 </NavigationLinks>
 
@@ -29,7 +30,7 @@ const Footer = () => {
                         <li><a href='#top'>Linkdin</a></li>
                         <li><a href='#top'>Instagram</a></li>
                         <li><a href='#top'>Facebook</a></li>
-                        <li><a href='#top'>Twitter</a></li>
+                        <li><a href='#twitter'>Twitter</a></li>
                     </ul>
                 </SocialLinks>
             </Links>
@@ -115,7 +116,7 @@ const NavigationLinks = styled.div`
 
     ul > li {
         padding: 5px 0;
-    }
+    }    
 
     ul > li > a{
         text-decoration: none;
