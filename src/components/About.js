@@ -28,16 +28,20 @@ const Wrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
 
+    span{
+      display: hidden;
+    }
     @media (max-width: 500px) {
         flex-direction: column;
         margin: 150px 20px;
       }
-      `
+
+`
 const Img = styled.img`
     src: url(${props => props.src});
     max-width: 400px;
     display: flex;
-    `;
+`;
 
 const AboutMe = styled.div`
   display: flex;
@@ -49,14 +53,17 @@ const AboutMe = styled.div`
     margin: 0px 0px;
   }
 `;
+
 const Heading = styled.h1`
   font-size: 48px;
   margin: 0;
 `;
+
 const Description = styled.p`
   font-size: large;
   text-align: justify;
 `;
+
 const HireMe = styled.button`
   width: 121px;
   height: 54px;
@@ -76,7 +83,6 @@ const HireMe = styled.button`
   &:hover {
       cursor: pointer;
   }
-
 
   a:link {
       color: #212529;

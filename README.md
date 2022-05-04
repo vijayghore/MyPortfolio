@@ -10,7 +10,7 @@ This is my protfolio website through which you can hire me and see my work as we
 - etc.
 ## Tech Stack
 
-**Client:** ReactJS
+**Technology:** ReactJS
 
 **Packages:** styled-components
 
@@ -44,4 +44,4 @@ I'm a Full Stack Web Developer...
 
 ## Feedback
 
-If you have any feedback, please reach out to us at vijayghore@gmail.com
+If you have any feedback, please reach out to me at vijayghore@gmail.com

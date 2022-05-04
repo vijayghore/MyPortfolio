@@ -14,7 +14,7 @@ const Footer = () => {
                 <NavigationLinks>
                     <h3>Useful Links</h3>
                     <ul>
-                        <li><a href="#Home"> Home</a></li>
+                        <li><a href="#top"> Home</a></li>
                         <li><a href="#About"> About</a></li>
                         <li><a href="#Skills"> Skills</a></li>
                         <li><a href="#Portfolio"> Portfolio</a></li>
@@ -40,14 +40,12 @@ const Footer = () => {
 
 export default Footer
 
-
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* width: auto; */
 
     background-color: #1c1c1c;
     padding: 20px;

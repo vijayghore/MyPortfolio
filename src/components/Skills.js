@@ -33,7 +33,6 @@ const Skills = () => {
 
 export default Skills
 
-
 const Wrapper = styled.div`
 	margin: 200px 100px 250px 100px;
   	display: flex;
@@ -46,7 +45,6 @@ const Wrapper = styled.div`
 	  text-align: center;
   	}
 `
-
 const SkillsIntro = styled.div`
 	display: flex;
 	flex-direction: column;

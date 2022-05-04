@@ -20,7 +20,6 @@ const App = () => {
 
 export default App
 
-
 const AllComponents = styled.div`
   margin: 0;
   padding: 0; 

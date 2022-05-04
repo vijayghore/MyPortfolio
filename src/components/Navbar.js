@@ -7,11 +7,11 @@ const Navbar = () => {
             <Logo><i className="fa-solid fa-code"></i></Logo>
 
             <List>
-                <ListItem><Link href="home.js" className='active'> Home</Link></ListItem>
-                <ListItem><Link href="home.js"> About</Link></ListItem>
-                <ListItem><Link href="home.js"> Skills</Link></ListItem>
-                <ListItem><Link href="home.js"> Protfolio</Link></ListItem>
-                <ListItem><Link href="home.js"> Contact</Link></ListItem>
+                <ListItem><Link href="#top" className='active'> Home</Link></ListItem>
+                <ListItem><Link href="#About"> About</Link></ListItem>
+                <ListItem><Link href="#Skills"> Skills</Link></ListItem>
+                <ListItem><Link href="#Portfolio"> Protfolio</Link></ListItem>
+                <ListItem><Link href="#Contact"> Contact</Link></ListItem>
             </List>
 
             <HireMe><a href="https://wa.me/919730809750?text=Hey Vijay, We want you to hire for our company" target="_blank" rel="noreferrer"> Hire Me </a></HireMe>

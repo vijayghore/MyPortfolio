@@ -18,7 +18,6 @@ const Widget = (props) => {
 
 export default Widget
 
-
 const WidgetStructure = styled.div`
     display: flex;
     flex-direction: row;
